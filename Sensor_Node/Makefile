@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAG = -Wall -Werror -o3
-CXXLD = -lpthread -lrt ##-lwiringPi
+CXXLD = -lpthread -lrt -lwiringPi -ljsoncpp
 TARGET := app
 
 
