@@ -28,14 +28,14 @@ int main(int argc, char const *argv[]){
 	nodeSimulator_init();
 	Logger::getLogger();
 	delay(1000);
-	Json::FastWriter fastwriter;
+	Json::StyledWriter styledWriter;
 	std::string message;
 
 	while(true){
 
 		Json::Value msg = messages_generate(nodeSimulator_getDataPoint());
 		
-	  	message = fastwriter.write(msg);
+	  	message = styledWriter.write(msg);
 	  	std::cout<<message<<std::endl;
 
 		Logger::getLogger() << message << "\r\n";

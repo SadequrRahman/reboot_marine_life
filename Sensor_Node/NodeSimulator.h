@@ -8,8 +8,6 @@
 #ifndef __NODESIMULATOR_H__
 #define __NODESIMULATOR_H__
 
-#include <time.h>       /* time */
-#include <stdlib.h>     /* srand, rand */
 
 /* data model for representing sensor data */
 typedef struct{
