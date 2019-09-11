@@ -6,4 +6,4 @@ To address the problems of marine ecosystem and life under water, here we propos
 # Description
 
 Here we propose a platform which will provide service and to do so, the solution is divided into two parts. First one is **Sensor Node** which enables the platfrom to collect data oceans to detect the water quality and pollutants. The other one is **Application** which will receive and refine the sensor data, organize the data and perform analytics to provide the services. 
-
+![Image of flowChart](img/FlowChart.JPG)
